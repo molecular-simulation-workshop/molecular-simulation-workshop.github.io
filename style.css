@@ -1,0 +1,167 @@
+/*body{
+  font-family: 'Carrois Gothic SC';
+}*/
+
+.navbar{
+    background: black;
+    z-index:9999;
+    bottom-border:1px solid blue;
+opacity:.9;
+    }
+    .navbar li a, .navbar .navbar-brand {
+      color: white !important;
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+	border-bottom: 2px solid #D1E0FF;
+  }
+
+   .navbar-default .navbar-toggle {
+      border-color: white;
+      color: white !important;
+  }
+/*.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}*/
+
+.bg1{
+background-image: url("1.jpg");
+width:100%;
+background-size:cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+#ddb{
+  position: relative;
+}
+
+#dd{
+  background-color: black;
+  position: absolute;
+  display: none;
+}
+
+#ddb:hover #dd{
+  width:120%;
+  display: block;
+}
+
+.jumbotron{
+margin: 0 0 20px 0;
+color:black;
+height: 100vh;
+}
+
+.box{
+background-color:white;
+opacity:.8;
+border:1px solid black;
+border-radius: 6px;
+color:black;
+width:60%;
+}
+
+.container{
+max-width:  1000px;
+}
+
+.bdr{
+border-bottom: 3px solid black;
+width:40%;
+}
+
+.bg2{
+background-image: url("4.jpg");
+width:100%;
+background-size:cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.bg3{
+background-image: url("5.jpg");
+width:100%;
+background-size:cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.bdr2{
+border-bottom: 2px solid black;
+width:50%;
+}
+.bdr3{
+border:1px solid grey;
+}
+
+.card-header{
+background-color:black;
+color:white;
+opacity:.8;
+}
+
+.t{
+    font-size: 23px;
+}
+
+
+.bg4{
+background-image: url("1.jpg");
+width:100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+.box0{
+background-color: white;
+border:1px solid black;
+border-radius: 50%;
+width:200px;
+height:200px;
+overflow:hidden;
+transition: border 1s;
+cursor:pointer;
+}
+
+.bg5{
+  background-image: url("6.jpg");
+width:100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+.reg{
+  color: blue;
+  font-size: 25px;
+  font-style: italic;
+  animation-name: reggie;
+  animation-duration: 4s;
+}
+
+@keyframes reggie{
+  0% {color: blue;}
+  33% {color: red;}
+  66% {color: green;}
+  100%{color: blue;}
+}
+
+@media (max-width: 768px){
+
+.box{
+width:90%;
+border: 1px solid grey;
+}
+
+#home{
+
+}
+
+#dd{
+position:relative;
+display: block;
+background-color: #6b6767;
+}
+
+}
