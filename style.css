@@ -137,7 +137,8 @@ background-attachment: fixed;
   font-size: 25px;
   font-style: italic;
   animation-name: reggie;
-  animation-duration: 4s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes reggie{
